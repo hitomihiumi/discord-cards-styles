@@ -1,6 +1,8 @@
 module.exports = RankData = {
     name: "BaseRank",
     version: "1.0.0",
+    author: "hitomihiumi",
+    fontURL: "none",
     data: {
         width: 600,
         height: 200,
@@ -19,7 +21,7 @@ module.exports = RankData = {
                 width: 600,
                 height: 200,
                 radius: 50,
-                image: '#{avatar}#'
+                image: '#{background}#'
             },
             {
                 shadow: {},
@@ -60,7 +62,7 @@ module.exports = RankData = {
                 width: 150,
                 height: 150,
                 radius: 50,
-                image: '#{background}#'
+                image: '#{avatar}#'
             },
             {
                 shadow: {},
@@ -151,7 +153,7 @@ module.exports = RankData = {
                 weight: 'normal',
                 x: 550,
                 y: 120,
-                text: '#{xp}#/#{neddedXp}#',
+                text: '#{xp}#/#{neededXp}#',
                 color: '#fff',
                 align: 'right'
             },
