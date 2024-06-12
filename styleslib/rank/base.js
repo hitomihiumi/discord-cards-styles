@@ -99,7 +99,7 @@ module.exports = RankData = {
                 type: 'ellipse',
                 x: 192.5,
                 y: 127.5,
-                width: 180,
+                width: `((#{xp}# / #{neededXp}#) * 365)`,
                 height: 30,
                 radius: 15,
                 color: '#{progressColor}#'

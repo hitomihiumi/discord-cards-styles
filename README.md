@@ -1,5 +1,5 @@
 # discord-cards-styles
-Styles storage location for @hitomihiumi/discord-cards
+Styles storage location for [`@hitomihiumi/discord-cards`](https://www.npmjs.com/package/@hitomihiumi/discord-cards)
 
 ## How to
 
@@ -28,3 +28,98 @@ module.exports = RankData = {
 ```
 
 LazyCanvas data can be obtained by using the `getData()` function from the [`LazyCanvas`](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/lazycanvas.md) class. You can find the LazyCanvas class in the [lazy-canvas](https://github.com/hitomihiumi/lazy-canvas) repository.
+
+## Markers
+
+Markers are used to replace the data in the style. Here is a list of markers that can be used in the styles:
+
+<table>
+    <tr>
+        <th>Marker</th>
+        <th>Description</th>
+        <th>Usage</th>
+        <th>Data type</th>
+    </tr>
+    <tr>
+        <td>#{name}#</td>
+        <td>The name of user</td>
+        <td>Profile, Rank</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{avatar}#</td>
+        <td>The avatar of user</td>
+        <td>Profile, Rank</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{background}#</td>
+        <td>The background of card</td>
+        <td>Profile, Rank</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{level}#</td>
+        <td>The level of user</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{nextLevel}#</td>
+        <td>The next level of user</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{levelFontSize}#</td>
+        <td>The font size of level</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{xp}#</td>
+        <td>The current xp of user</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{neededXp}#</td>
+        <td>The needed xp for next level</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{totalXp}#</td>
+        <td>The total xp of user</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{progressColor}#</td>
+        <td>The color of progress bar</td>
+        <td>Profile, Rank</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{textColor}#</td>
+        <td>The color of text</td>
+        <td>Profile, Rank</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{position}#</td>
+        <td>The position of user in the leaderboard</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{biography}#</td>
+        <td>The biography of user</td>
+        <td>Profile</td>
+        <td>string</td>
+    </tr>
+</table>
+
+## Afterword
+
+`((#{xp}# / #{neededXp}#) * 365)` - this formula is used to calculate the width of the progress bar. The value `365` is the width of the progress bar in the base style. You can change it to any value you want.
