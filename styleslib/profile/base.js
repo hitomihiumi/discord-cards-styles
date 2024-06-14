@@ -198,7 +198,7 @@ module.exports = ProfileData = {
                 weight: 'bold',
                 x: 575,
                 y: 45,
-                text: '##{position}#',
+                text: '#{position}#',
                 color: '#{textColor}#',
                 align: 'end'
             },

@@ -43,20 +43,32 @@ Markers are used to replace the data in the style. Here is a list of markers tha
     <tr>
         <td>#{name}#</td>
         <td>The name of user</td>
-        <td>Profile, Rank</td>
+        <td>Everywhere</td>
         <td>string</td>
     </tr>
     <tr>
         <td>#{avatar}#</td>
         <td>The avatar of user</td>
-        <td>Profile, Rank</td>
+        <td>Everywhere</td>
         <td>string</td>
     </tr>
     <tr>
         <td>#{background}#</td>
         <td>The background of card</td>
-        <td>Profile, Rank</td>
+        <td>Everywhere</td>
         <td>string</td>
+    </tr>
+    <tr>
+        <td>#{decorationColor}#</td>
+        <td>The color of decoration</td>
+        <td>Everywhere</td>
+        <td>string, Gradient* or Pattern*</td>
+    </tr>
+    <tr>
+        <td>#{borderColor}#</td>
+        <td>The color of border</td>
+        <td>Everywhere</td>
+        <td>string, Gradient* or Pattern*</td>
     </tr>
     <tr>
         <td>#{level}#</td>
@@ -68,6 +80,12 @@ Markers are used to replace the data in the style. Here is a list of markers tha
         <td>#{nextLevel}#</td>
         <td>The next level of user</td>
         <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>#{totalLevels}#</td>
+        <td>The total levels of user</td>
+        <td>-</td>
         <td>number</td>
     </tr>
     <tr>
@@ -98,13 +116,13 @@ Markers are used to replace the data in the style. Here is a list of markers tha
         <td>#{progressColor}#</td>
         <td>The color of progress bar</td>
         <td>Profile, Rank</td>
-        <td>string</td>
+        <td>string, Gradient* or Pattern*</td>
     </tr>
     <tr>
         <td>#{textColor}#</td>
         <td>The color of text</td>
         <td>Profile, Rank</td>
-        <td>string</td>
+        <td>string, Gradient* or Pattern*</td>
     </tr>
     <tr>
         <td>#{position}#</td>
@@ -119,6 +137,9 @@ Markers are used to replace the data in the style. Here is a list of markers tha
         <td>string</td>
     </tr>
 </table>
+
+*[Gradient](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/gradient.md)
+*[Pattern](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/pattern.md)
 
 ## Afterword
 
