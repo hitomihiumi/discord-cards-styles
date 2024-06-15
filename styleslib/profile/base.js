@@ -47,7 +47,7 @@ module.exports = ProfileData = {
                 width: 598,
                 height: 598,
                 radius: 28,
-                color: '#fff',
+                color: '#{borderColor}#',
                 stroke: 2
             },
             {
@@ -231,7 +231,7 @@ module.exports = ProfileData = {
                 width: 598,
                 height: 340,
                 radius: 28,
-                color: '#fff',
+                color: '#{borderColor}#',
                 stroke: 2.5
             },
             {
@@ -245,7 +245,7 @@ module.exports = ProfileData = {
                 width: 598,
                 height: 260,
                 radius: 28,
-                color: '#fff',
+                color: '#{borderColor}#',
                 stroke: 2.5
             }
         ]

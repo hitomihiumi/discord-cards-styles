@@ -136,6 +136,18 @@ Markers are used to replace the data in the style. Here is a list of markers tha
         <td>Profile</td>
         <td>string</td>
     </tr>
+    <tr>
+        <td>#{guildName}#</td>
+        <td>The guild name</td>
+        <td>Goodbye, Welcome</td>
+        <td>string</td>
+    </tr>
+    <tr>
+        <td>#{guildAvatar}#</td>
+        <td>The guild avatar</td>
+        <td>Goodbye, Welcome</td>
+        <td>string</td>
+    </tr>
 </table>
 
 *[Gradient](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/gradient.md)

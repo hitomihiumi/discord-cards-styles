@@ -48,7 +48,7 @@ module.exports = RankData = {
                 width: 598,
                 height: 198,
                 radius: 50,
-                color: '#fff',
+                color: '#{borderColor}#',
                 stroke: 2
             },
             {
