@@ -71,6 +71,12 @@ Markers are used to replace the data in the style. Here is a list of markers tha
         <td>Profile, Rank</td>
         <td>number</td>
     </tr>
+   <tr>
+        <td>#{previousLevel}#</td>
+        <td>The previous level of user</td>
+        <td>Profile, Rank</td>
+        <td>number</td>
+    </tr>
     <tr>
         <td>#{totalLevels}#</td>
         <td>The total levels of user</td>
