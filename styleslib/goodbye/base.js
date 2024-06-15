@@ -1,4 +1,4 @@
-module.exports = RankData = {
+module.exports = data = {
     name: "base",
     version: "1.0.0",
     author: "hitomihiumi",

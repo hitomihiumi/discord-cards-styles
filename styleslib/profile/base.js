@@ -1,4 +1,4 @@
-module.exports = ProfileData = {
+module.exports = data = {
     name: "BaseProfile",
     version: "1.0.1",
     author: "hitomihiumi",

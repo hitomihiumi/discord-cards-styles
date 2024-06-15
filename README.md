@@ -5,20 +5,9 @@ Styles storage location for [`@hitomihiumi/discord-cards`](https://www.npmjs.com
 
 To load your own styles, create a pull-request. Make sure your style will be in a separate JS file like this one. Templates for creating your own styles are given below:
 
-#### Profile Template
+#### Template
 ```js
-module.exports = ProfileData = {
-    name: "yourStyleName",
-    version: "1.0.0",
-    author: "yourUsername",
-    fontURL: "none",
-    data: {} // LazyCanvas data
-}
-``` 
-
-#### Rank Template
-```js
-module.exports = RankData = {
+module.exports = data = {
     name: "yourStyleName",
     version: "1.0.0",
     author: "yourUsername",
