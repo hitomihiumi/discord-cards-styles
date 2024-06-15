@@ -94,7 +94,7 @@ module.exports = RankData = {
                 weight: 'bold',
                 x: 300,
                 y: 190,
-                text: 'Welcome #{name}#!',
+                text: 'Goodbye #{name}#!',
                 color: '#{textColor}#',
                 align: 'center',
                 baseline: 'top'
@@ -115,7 +115,7 @@ module.exports = RankData = {
                 weight: 'bold',
                 x: 300,
                 y: 230,
-                text: 'Joined to the #{guildName}#!',
+                text: 'Leaved from #{guildName}#!',
                 color: '#{textColor}#',
                 align: 'center',
                 baseline: 'top'
