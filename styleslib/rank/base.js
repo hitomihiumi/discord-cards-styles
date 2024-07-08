@@ -47,7 +47,7 @@ module.exports = data = {
                 y: 1,
                 width: 598,
                 height: 198,
-                radius: 50,
+                radius: 49,
                 color: '#{borderColor}#',
                 stroke: 2
             },
