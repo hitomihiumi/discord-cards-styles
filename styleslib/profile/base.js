@@ -111,7 +111,7 @@ module.exports = data = {
                 type: 'circle',
                 x: 140,
                 y: 290,
-                width: 20,
+                radius: 20,
                 color: '#{progressColor}#'
             },
             {
@@ -122,7 +122,7 @@ module.exports = data = {
                 type: 'circle',
                 x: 140,
                 y: 290,
-                width: 20,
+                radius: 20,
                 color: '#fff',
                 stroke: 1.5
             },
