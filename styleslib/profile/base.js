@@ -1,6 +1,6 @@
 module.exports = data = {
     name: "BaseProfile",
-    version: "1.0.1",
+    version: "1.1.1",
     author: "hitomihiumi",
     data: {
         width: 600,
@@ -197,10 +197,11 @@ module.exports = data = {
                 size: 35,
                 weight: 'bold',
                 x: 575,
-                y: 45,
+                y: 25,
                 text: '#{position}#',
                 color: '#{textColor}#',
-                align: 'end'
+                align: 'end',
+                baseline: 'bottom'
             },
             {
                 shadow: {},
