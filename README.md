@@ -16,7 +16,7 @@ module.exports = data = {
 }
 ```
 
-LazyCanvas data can be obtained by using the `getData()` function from the [`LazyCanvas`](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/lazycanvas.md) class. You can find the LazyCanvas class in the [lazy-canvas](https://github.com/hitomihiumi/lazy-canvas) repository.
+LazyCanvas data can be obtained by using the `getData()` function from the [`LazyCanvas`](https://docs.hitomihiumi.xyz) class. You can find the LazyCanvas class in the [lazy-canvas](https://github.com/hitomihiumi/lazy-canvas-ts) repository.
 
 ## Markers
 
@@ -145,8 +145,8 @@ Markers are used to replace the data in the style. Here is a list of markers tha
     </tr>
 </table>
 
-*[Gradient](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/gradient.md)
-*[Pattern](https://github.com/hitomihiumi/lazy-canvas/blob/main/docs/pattern.md)
+*[Gradient](https://docs.hitomihiumi.xyz/guide/lazy-canvas/gradient)
+*[Pattern](https://docs.hitomihiumi.xyz/guide/lazy-canvas/pattern)
 
 ## Afterword
 
