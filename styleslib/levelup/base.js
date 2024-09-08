@@ -1,6 +1,6 @@
 module.exports = data = {
     name: "base",
-    version: "1.0.0",
+    version: "1.0.1",
     author: "hitomihiumi",
     fontURL: "none",
     data: {
@@ -119,7 +119,7 @@ module.exports = data = {
                 size: 30,
                 weight: 'bold',
                 x: 315,
-                y: 100,
+                y: 110,
                 text: 'LEVEL UP!',
                 color: '#{textColor}#',
                 baseline: 'bottom'

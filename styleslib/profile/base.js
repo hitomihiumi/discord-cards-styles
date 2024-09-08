@@ -1,6 +1,6 @@
 module.exports = data = {
     name: "BaseProfile",
-    version: "1.1.1",
+    version: "1.1.2",
     author: "hitomihiumi",
     data: {
         width: 600,
@@ -133,7 +133,7 @@ module.exports = data = {
                 fill: true,
                 type: 'text',
                 font: 'OpenSans',
-                size: 25,
+                size: 35,
                 weight: 'bold',
                 x: 80,
                 y: 380,
@@ -196,12 +196,12 @@ module.exports = data = {
                 font: 'OpenSans',
                 size: 35,
                 weight: 'bold',
-                x: 575,
-                y: 25,
+                x: 585,
+                y: 10,
                 text: '#{position}#',
                 color: '#{textColor}#',
                 align: 'end',
-                baseline: 'bottom'
+                baseline: 'top'
             },
             {
                 shadow: {},
@@ -213,7 +213,7 @@ module.exports = data = {
                 size: 25,
                 weight: 'bold',
                 x: 20,
-                y: 386,
+                y: 410,
                 text: '#{biography}#',
                 color: '#{textColor}#',
                 align: 'start',

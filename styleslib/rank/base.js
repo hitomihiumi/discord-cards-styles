@@ -1,6 +1,6 @@
 module.exports = data = {
     name: "BaseRank",
-    version: "1.0.0",
+    version: "1.0.1",
     author: "hitomihiumi",
     fontURL: "standard font",
     data: {
@@ -152,11 +152,10 @@ module.exports = data = {
                 size: 20,
                 weight: 'bold',
                 x: 550,
-                y: 105,
+                y: 120,
                 text: '#{xp}#/#{neededXp}#',
                 color: '#fff',
                 align: 'right',
-                baseline: 'bottom'
             },
             {
                 shadow: {},
